@@ -277,7 +277,7 @@ function HandelNotes(Data){
             GrabbedNote.style.opacity = "0"
             setTimeout(function(){
                 GrabbedNote.remove()
-            },2500)
+            },3500)
         })
 
         NoteData[NoteID].pop(Rand)
